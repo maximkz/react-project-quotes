@@ -16,7 +16,13 @@ class Quotes extends React.Component {
         this.deleteItem = this.deleteItem.bind(this);
     }
     
-   
+   /* Creating the progress bar     
+    var ProgressBar = React.createClass({
+      getInitialState: function() {
+        return {
+            value: "0%"
+        };
+      }*/
     
     addItem(e) {
         var itemArray = this.state.items;
