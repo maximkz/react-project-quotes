@@ -62,7 +62,7 @@ class Quotes extends React.Component {
   render() {
     return (
       <div className="quotesMain">
-        <ProgressBar className="right" min="0" max="10" active now={0} label={0}/>
+        <ProgressBar className="right" min="0" max="10" active now={5} label={'5/10'}/>
         <div className="header">
           <form onSubmit={this.addItem}>
             <ControlLabel>Quotes</ControlLabel><br/>
